@@ -1,13 +1,13 @@
 [
   {
-    "name": "Buy Now",
+    "name": "Buy Now directs buyers to a selected listing",
     "steps": [
       {
         "expect": [
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Generate LTC payment address/QR for selected listing"
+              "text": "Choose a card from Browse listings, then tap Buy now."
             }
           }
         ],
