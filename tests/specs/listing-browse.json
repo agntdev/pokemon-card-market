@@ -1,13 +1,13 @@
 [
   {
-    "name": "Browse Listings",
+    "name": "Browse Listings has a clear unavailable state before storage is configured",
     "steps": [
       {
         "expect": [
           {
             "method": "sendMessage",
             "payload": {
-              "text": "View active listings with search/filter options"
+              "text": "Listings aren’t set up yet. Please try again once storage is available."
             }
           }
         ],

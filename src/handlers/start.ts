@@ -9,7 +9,7 @@ import { mainMenuKeyboard } from "../toolkit/index.js";
 // file to add a feature. Send ONE message — no placeholder line above the menu.
 const composer = new Composer<Ctx>();
 
-const WELCOME = "👋 Welcome! Tap a button below to get started.";
+const WELCOME = "Welcome to Card Market. List a Pokémon card or browse what’s available.";
 
 composer.command("start", async (ctx) => {
   await ctx.reply(WELCOME, { reply_markup: mainMenuKeyboard() });

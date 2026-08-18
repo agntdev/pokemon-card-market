@@ -1,13 +1,13 @@
 [
   {
-    "name": "Create Listing",
+    "name": "Create Listing starts with a title",
     "steps": [
       {
         "expect": [
           {
             "method": "sendMessage",
             "payload": {
-              "text": "Initiate listing creation flow with title, description, photos, and USD price"
+              "text": "What’s the card’s title?"
             }
           }
         ],
